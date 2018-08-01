@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin:0;
+  padding:0;
+}
+
+header {
+  position:relative;
+  top:0;
+  left:0;
+  right:0;
+  width:100%;
+  height: 45px;
+  padding:4px 15px 2px 15px;
+  border-bottom: 1px solid #e2e2e2;
+  text-align: center;
+}
+
+.art-head {
+  margin-top: 50px;
+  width:945px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  float:left;
+}
+
+.right {
+  float:right;
+}
+
+.container {
+  width: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+}
+
+#art-head-text {
+  font-size:2rem;
+  line-height: 2.25rem;
+  font-style:italic;
+  font-weight: 700;
+  display:block;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+button {
+  border-radius: 3px;
+  padding:11px 12px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  background-color: #6288a5;
+  color:#fff;
+  border: 1px solid #326891;
+}
+
+.inflation {
+  position:relative;
+  width:600px;
+  height: 620px;
+}
+
+.first-row {
+  position:absolute;
+  top:90px;
+}
+
+.second-row {
+  position:absolute;
+  top:360px;
+}
+
+td {
+  width:150px;
+  font-size: 13px;
+  vertical-align: top;
+}
+
+hr {
+  border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.bottom {
+  width:1000px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.bigger {
+  float:left;
+  width:67%;
+  margin-right: 30px;
+}
+
+.smaller {
+  float:right;
+  width:30%;
+}
+
+.img-container {
+  float:left;
+  width:215px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  height: 250px;
+}
+
+footer {
+  width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.foot-bigger {
+  float:left;
+  width:80%;
+}
+
+.footer-div {
+  display: inline-block;
+  width:150px;
+  height: 200px;
+  margin-right: 5px;
+  vertical-align: top;
+}
+
+.footer-div p {
+  font-size: 14px;
+  line-height: 10px;
+  font-weight: 300;
+}
+
+.foot-smaller {
+  float:right;
+  width:20%;
+  padding-left: 10px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);;
+}
+
+h6 {
+  line-height: 4px;
+  font-weight: 300;
+}
+/* icons */
+
+.icons {
+  display:inline-block;
+  position:relative;
+  width: 40px;
+  height: 32px;
+}
+
+.text-header {
+  position:relative;
+  display:inline-block;
+  vertical-align:top;
+  height:32px;
+  width:132px;
+}
+
+#space {
+  position: absolute;
+  font-weight: 700;
+  font-size: 14.25px;
+  top:7.5px;
+  left:0;
+}
+
+.fas, .fab {
+  position:absolute;
+  font-size: 20px;
+  top:6px;
+  left:10px;
+  right:10px;
+  bottom:6px;
+}
